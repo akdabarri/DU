@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TK Islam Darul Ulum | Jambe Tangerang</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --primary:#ff7a00;
+    --secondary:#ff9f1c;
+    --light:#fff5ec;
+    --dark:#333;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:var(--light);
+    color:var(--dark);
+}
+
+header{
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    padding:20px 0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover;
+    height:85vh;
+    display:flex;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:1.2rem;
+}
+
+.btn{
+    background:white;
+    color:var(--primary);
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.bg-orange{
+    background:var(--primary);
+    color:white;
+}
+
+.bg-orange h2{
+    color:white;
+}
+
+footer{
+    background:#222;
+    color:white;
+    padding:40px 0;
+}
+
+footer p{
+    margin:10px 0;
+}
+
+.contact-info{
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<h2>TK Islam Darul Ulum</h2>
+<ul>
+<li><a href="#tentang">Tentang</a></li>
+<li><a href="#program">Program</a></li>
+<li><a href="#fasilitas">Fasilitas</a></li>
+<li><a href="#ppdb">PPDB</a></li>
+<li><a href="#kontak">Kontak</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Membentuk Generasi Islami Berkarakter dan Kreatif</h1>
+<p>TK Islam Darul Ulum – Jambe, Kabupaten Tangerang</p>
+<a href="#ppdb" class="btn">Daftar Sekarang</a>
+</div>
+</section>
+
+<section id="tentang">
+<div class="container">
+<div class="section-title">
+<h2>Tentang Kami</h2>
+</div>
+<p style="text-align:center; max-width:800px; margin:auto;">
+TK Islam Darul Ulum berdiri sejak 11 Juni 2024 di Perumahan Cluster Mutiara Tigaraksa, Jambe, Kabupaten Tangerang. 
+Sekolah ini berkomitmen membentuk generasi Islami yang berakhlak mulia, kreatif, mandiri, sehat, cerdas, serta peduli lingkungan.
+</p>
+</div>
+</section>
+
+<section id="program" class="bg-orange">
+<div class="container">
+<div class="section-title">
+<h2>Program Unggulan</h2>
+</div>
+
+<div class="cards">
+<div class="card">
+<h3>Pendidikan Agama</h3>
+<p>Tahfidz, Iqro, Shalat Dhuha, Doa Harian, Hadits, Asmaul Husna.</p>
+</div>
+
+<div class="card">
+<h3>Bahasa</h3>
+<p>Bahasa Inggris dan Bahasa Arab terjadwal setiap minggu.</p>
+</div>
+
+<div class="card">
+<h3>Pengembangan Kreativitas</h3>
+<p>Menari, Musik, Mewarnai, Futsal, Art Project, Cooking Class.</p>
+</div>
+
+<div class="card">
+<h3>Sentra Pembelajaran</h3>
+<p>Sentra Balok, Ibadah, Seni, Bahasa, Main Peran, dan lainnya.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="fasilitas">
+<div class="container">
+<div class="section-title">
+<h2>Fasilitas Sekolah</h2>
+</div>
+
+<div class="cards">
+<div class="card"><h3>Ruang Kelas AC</h3></div>
+<div class="card"><h3>CCTV & WiFi</h3></div>
+<div class="card"><h3>Area Bermain Indoor & Outdoor</h3></div>
+<div class="card"><h3>Ball Pit & Ayunan</h3></div>
+<div class="card"><h3>Alat Musik & Angklung</h3></div>
+<div class="card"><h3>Kamar Mandi Bersih</h3></div>
+</div>
+</div>
+</section>
+
+<section id="ppdb" class="bg-orange">
+<div class="container">
+<div class="section-title">
+<h2>Penerimaan Murid Baru 2026/2027</h2>
+</div>
+
+<p style="text-align:center; max-width:700px; margin:auto;">
+Segera daftarkan putra-putri Anda di TK Islam Darul Ulum. 
+Pendidikan Islami, lingkungan nyaman, dan pembelajaran menyenangkan.
+</p>
+
+<div style="text-align:center; margin-top:30px;">
+<a href="https://wa.me/6281214302009" class="btn">Hubungi via WhatsApp</a>
+</div>
+</div>
+</section>
+
+<footer id="kontak">
+<div class="container">
+<h3>Kontak Kami</h3>
+<div class="contact-info">
+<p>📍 Cluster Mutiara Tigaraksa Blok A1 No.16, Jambe, Tangerang</p>
+<p>📞 0812-1430-2009 | 0855-9177-4445</p>
+<p>📧 sekolahislamdarululum@gmail.com</p>
+<p>📸 Instagram: sekolah_islam_darul_ulum</p>
+</div>
+<p style="margin-top:20px;">© 2026 TK Islam Darul Ulum. All Rights Reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
